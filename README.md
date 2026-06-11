@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🧮 CalcVerse
 
-# Run and deploy your AI Studio app
+Welcome to **CalcVerse**, an all-in-one smart calculator and unit converter application. Built using modern web technologies, it features an advanced user interface, real-time conversions, a history dashboard, and AI-powered capabilities integrated via the Gemini API.
 
-This contains everything you need to run your app locally.
+## ✨ Features
+* **Advanced Calculator:** Seamless mathematical operations with an intuitive UI.
+* **Unit Converters:** Multi-category conversions (Length, Weight, Temperature, etc.) handled efficiently via utility functions.
+* **History Dashboard:** Keep track of your past calculations and conversions instantly.
+* **AI Integration:** Enhanced insights and features powered by the Gemini API.
+* **Responsive Design:** A beautiful, responsive interface featuring splash screens and seamless navigation.
 
-View your app in AI Studio: https://ai.studio/apps/bca41ca4-ec01-44a1-b2c9-cb460d608448
+## 🚀 Tech Stack
+* **Frontend:** React, TypeScript, Vite
+* **Styling:** Tailwind CSS
+* **AI:** Google Gemini API
 
-## Run Locally
+## 🛠️ Getting Started
 
-**Prerequisites:**  Node.js
+Follow these steps to run the project locally on your machine.
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Shrutika2026/Calculator-CalcVerse.git](https://github.com/Shrutika2026/Calculator-CalcVerse.git)
+cd Calculator-CalcVerse
