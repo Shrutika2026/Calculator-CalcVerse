@@ -62,15 +62,15 @@ Powered by Google Gemini AI
 
 ---
 
-# 🧮 Available Tools
+# ⚙️ Available Tools
 
 Currently includes 20+ professional calculators and converters.
 
 ---
 
-# 🧮 Calculator Suite
+# 📊 Calculator Suite
 
-## Standard Calculator
+## 📱 Standard Calculator
 
 Features:
 
@@ -86,7 +86,7 @@ Features:
 
 ---
 
-## Scientific Calculator
+## 🧠 Scientific Calculator
 
 Advanced Mathematical Operations:
 
@@ -205,11 +205,10 @@ Calculate:
 
 # 🎓 Education Calculators
 
-### Academic Calculator
+### 📝 Academic Calculator (Grade and GPA Tools)
 
 Features:
 
-## Grade and GPA Tools
 * CGPA to Percentage Converter (cgpa-pct)
 * Percentage to CGPA Converter (pct-cgpa)
 * SGPA Calculator (sgpa)
@@ -238,11 +237,16 @@ Additional Features:
 * Export Results
 * Semester Analysis
 
+Performance Analytics
+* Semester Performance Comparison (sem-comp)
+* Credit Hour Tracker (credit-track)
+* Academic Standing Predictor (status-pred)
+
 ---
 
 # 📊 Graphing Tools
 
-### Graph Plotter
+### 📈 Graph Plotter
 
 Features:
 
@@ -253,7 +257,7 @@ Features:
 * Axis Labels
 * Export Graphs
 
-### Scientific Graph Visualizer
+### 🔍 Scientific Graph Visualizer
 
 Features:
 
@@ -269,7 +273,7 @@ Features:
 
 # ❤️ Health Calculators
 
-### BMI Health Metrics Calculator
+### 🫀 BMI Health Metrics Calculator
 
 Features:
 
@@ -298,7 +302,7 @@ Provides:
 * Instant Results
 * Tips to improve BMI Score
 
-### Water Intake Calculator
+### 💧 Water Intake Calculator
 
 Inputs:
 
@@ -339,9 +343,9 @@ Adjusted based on:
 
 # 📅 Date & Time Tools
 
-### Smart Age Metric (Age Tracking)
+### ⏳ Smart Age Metric (Age Tracking)
 
-Calculate:
+**📋 Calculate:**
 
 * Exact Age (age)
 * Years (yr)
@@ -349,9 +353,9 @@ Calculate:
 * Days (days)
 * Birthday Countdown (Upcoming Birthday Information) (bd-cd)
 
-### Date Duration (Difference) Calculator (Date Calculations)
+### 🔢 Date Duration (Difference) Calculator (Date Calculations)
 
-Calculate:
+**📋 Calculate:**
 
 * Days Between Dates (days)
 * Weeks Between Dates (wk)
@@ -365,11 +369,9 @@ Useful for:
 * Event Tracking
 * Milestone Management
 
-### Time Interval Converter
+### ⏱️ Time Interval Converter
 
-Supports:
-
-## Time Units
+**🔢 Supports Time Units:**
 
 * Picoseconds (ps)
 * Microseconds (µs)
@@ -385,7 +387,9 @@ Supports:
 
 # 📏📐 Unit Converters/Conversion Modules
 
-### Numerical Bases Converter
+### 🔢 Numerical Bases Converter
+
+**⚙️ Supported Bases**
 
 * Decimal (dec)
 * Binary (bin)
@@ -398,7 +402,9 @@ Useful for:
 * Programming
 * Digital Electronics
 
-### Land Area Converter
+### 🗺️ Land Area Converter
+
+**📐 Area Units**
 
 * Square Kilometer (km² or sq km)
 * Hectare (ha)
@@ -415,7 +421,9 @@ Useful for:
 * Square Rod (rd² or sq rd)
 
 
-### Length & Distance Converter
+### 📏 Length & Distance Converter
+
+**🗺️ Distance Units**
 
 * Millimeter (mm)
 * Centimeter (cm)
@@ -426,9 +434,11 @@ Useful for:
 * Yard (yd)
 * Mile (mi)
 
-### Mass & Weight Converter
+### ⚖️ Mass & Weight Converter
 
-* Kilogram (kg)
+**🏋️ Weight Units**
+
+* Kilogram (kg 
 * Ton (t)
 * Gram (gm)
 * Milligram (mg)
@@ -442,7 +452,9 @@ Useful for:
 * Stone (st)
 * Dram (dr)
 
-### Data Storage Converter
+### 💾 Data Storage Converter
+
+**🔢 Standard & Binary Units**
 
 * Byte (B)
 * Kilobyte (KB)
@@ -455,8 +467,9 @@ Useful for:
 * Yottabyte (YB)
 * Binary Units
 
-### Velocity Speed Converter
+### 🚀 Velocity Speed Converter
 
+**⚡ Speed Units**
 * Speed of Light (c)
 * Kilometer per Hour (km/h)
 * Meter per Second (m/s)
@@ -465,7 +478,9 @@ Useful for:
 * Foot per Second (ft/s)
 * Inch per Second (in/s)
 
-### Temperature Formula Converter
+### 🌡️ Temperature Formula Converter
+
+**🔥 Temperature Scales**
 
 * Celsius (°C)
 * Fahrenheit (°F)
@@ -473,15 +488,16 @@ Useful for:
 * Rankine (°R or °Ra)
 * Réaumur (°Re)
 
-### Volume Capacity Converter
+### 🧪 Volume & Capacity Converter
 
-## Metric Volumetric Units
+**📦 Metric Volumetric Units**
+
 * Cubic Meter (m³ or cu m)
 * Cubic Decimeter (dm³)
 * Cubic Centimeter (cm³ or cc)
 * Cubic Millimeter (mm³)
 
-## Metric Liquid Capacity Units
+**💧 Metric Liquid Capacity Units**
 * Hectoliter (hL)
 * Liter (L)
 * Deciliter (dL)
@@ -496,6 +512,10 @@ Useful for:
   
 ---
 
+
+
+---
+
 # 🚀 Project Highlights
 
 ✅ React + TypeScript Architecture
@@ -504,7 +524,7 @@ Useful for:
 
 ✅ Tailwind CSS Styling
 
-✅ Google Gemini AI Integration
+✅ Google Gemini AI Integration Numerical Bases Converte
 
 ✅ Voice Input Calculator
 
