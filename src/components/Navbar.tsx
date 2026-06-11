@@ -281,7 +281,7 @@ export default function Navbar({ activeTab, setActiveTab, prevTab }: NavbarProps
                 <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
                 <input
                   type="text"
-                  placeholder="Search 22 converters or calculators..."
+                  placeholder="Search 24 converters or calculators..."
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
                   className="w-full pl-12 pr-4 py-3.5 rounded-2xl bg-white/10 dark:bg-black/20 text-white placeholder-slate-400 font-medium border border-white/10 focus:bg-white focus:text-slate-900 focus:placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all text-sm outline-none"
