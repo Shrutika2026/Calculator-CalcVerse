@@ -398,5 +398,39 @@
   color: #22d3ee !important;
 }
 
+.dark #hub-item-calc_percentage,
+.dark #hub-item-calc_compound,
+.dark #hub-item-calc_investment,
+.dark #hub-item-calc_sip,
+.dark #hub-item-calc_graph,
+.dark #hub-item-calc_scientific_graph,
+.dark #hub-item-calc_academic,
+.dark #hub-item-calc_water_intake {
+  background-color: #0b132b !important;
+  border-color: rgba(30, 58, 138, 0.3) !important;
+}
+
+.dark #hub-item-calc_percentage h4,
+.dark #hub-item-calc_compound h4,
+.dark #hub-item-calc_investment h4,
+.dark #hub-item-calc_sip h4,
+.dark #hub-item-calc_graph h4,
+.dark #hub-item-calc_scientific_graph h4,
+.dark #hub-item-calc_academic h4,
+.dark #hub-item-calc_water_intake h4 {
+  color: #ffffff !important;
+}
+
+.dark #hub-item-calc_percentage p,
+.dark #hub-item-calc_compound p,
+.dark #hub-item-calc_investment p,
+.dark #hub-item-calc_sip p,
+.dark #hub-item-calc_graph p,
+.dark #hub-item-calc_scientific_graph p,
+.dark #hub-item-calc_academic p,
+.dark #hub-item-calc_water_intake p {
+  color: #cbd5e1 !important;
+}
+
 
 

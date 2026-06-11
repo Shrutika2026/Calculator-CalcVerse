@@ -33,6 +33,15 @@ import {
   convertTemperature, 
   convertNumeralSystem 
 } from '../utils/conversions';
+import PercentageCalculator from './PercentageCalculator';
+import CompoundInterestCalculator from './CompoundInterestCalculator';
+import InvestmentCalculator from './InvestmentCalculator';
+import SIPCalculator from './SIPCalculator';
+import GraphPlotter from './GraphPlotter';
+import ScientificGraphVisualizer from './ScientificGraphVisualizer';
+import AcademicCalculator from './AcademicCalculator';
+import WaterIntakeCalculator from './WaterIntakeCalculator';
+import { getBmiTips, tipsToPlainText } from '../utils/healthTips';
 
 interface ConvertersProps {
   activeTab: ActiveTab;
@@ -1158,6 +1167,59 @@ export default function Converters({ activeTab, darkMode = true }: ConvertersPro
                   <span>Obese (40.0)</span>
                 </div>
               </div>
+
+                {/* Contextual improvement tips (reusable util + quick actions) */}
+                <div className="mt-4">
+                  {(() => {
+                    const bundle = getBmiTips(bmiDetails.rangeIndex);
+                    const boxColor = bmiDetails.rangeIndex === 0 ? 'amber' : bmiDetails.rangeIndex === 1 ? 'green' : bmiDetails.rangeIndex === 2 ? 'amber' : 'red';
+                    return (
+                      <div className={`rounded-2xl border border-${boxColor}-200/10 bg-${boxColor}-50/5 p-4`}>
+                        <div className="flex items-start justify-between">
+                          <h4 className="text-sm font-bold text-slate-100">{bundle.title}</h4>
+                          <div className="flex items-center gap-2">
+                            <button
+                              onClick={async () => {
+                                try {
+                                  await navigator.clipboard.writeText(tipsToPlainText(bundle));
+                                  alert('Tips copied to clipboard');
+                                } catch (e) {
+                                  alert('Copy failed — check browser permissions');
+                                }
+                              }}
+                              className="text-xs px-2 py-1 rounded-md bg-slate-800 text-white"
+                            >Copy Tips</button>
+                            <button
+                              onClick={async () => {
+                                const text = tipsToPlainText(bundle);
+                                if (navigator.share) {
+                                  try {
+                                    await navigator.share({ title: bundle.title, text });
+                                  } catch (e) {
+                                    alert('Share canceled or failed');
+                                  }
+                                } else {
+                                  try {
+                                    await navigator.clipboard.writeText(text);
+                                    alert('Sharing not available — tips copied to clipboard');
+                                  } catch (e) {
+                                    alert('Share/copy failed');
+                                  }
+                                }
+                              }}
+                              className="text-xs px-2 py-1 rounded-md bg-slate-700 text-white"
+                            >Share</button>
+                          </div>
+                        </div>
+                        <ul className="mt-2 text-sm text-slate-300 space-y-2">
+                          {bundle.tips.map((t, i) => (
+                            <li key={i}>{t}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    );
+                  })()}
+                </div>
             </div>
           )}
         </div>
@@ -1692,6 +1754,32 @@ export default function Converters({ activeTab, darkMode = true }: ConvertersPro
           </div>
         </div>
       )}
+
+      {/* ===== NEW FINANCIAL & GRAPHING CALCULATORS ===== */}
+
+      {/* Percentage Calculator */}
+      {activeTab === 'calc_percentage' && <PercentageCalculator darkMode={darkMode} />}
+
+      {/* Compound Interest Calculator */}
+      {activeTab === 'calc_compound' && <CompoundInterestCalculator darkMode={darkMode} />}
+
+      {/* Investment Calculator */}
+      {activeTab === 'calc_investment' && <InvestmentCalculator darkMode={darkMode} />}
+
+      {/* SIP Calculator */}
+      {activeTab === 'calc_sip' && <SIPCalculator darkMode={darkMode} />}
+
+      {/* Graph Plotter */}
+      {activeTab === 'calc_graph' && <GraphPlotter darkMode={darkMode} />}
+
+      {/* Scientific Graph Visualizer */}
+      {activeTab === 'calc_scientific_graph' && <ScientificGraphVisualizer darkMode={darkMode} />}
+
+      {/* Academic Calculator */}
+      {activeTab === 'calc_academic' && <AcademicCalculator darkMode={darkMode} />}
+
+      {/* Water Intake Calculator */}
+      {activeTab === 'calc_water_intake' && <WaterIntakeCalculator darkMode={darkMode} />}
 
     </div>
   );

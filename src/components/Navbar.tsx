@@ -17,13 +17,18 @@ import {
   Square,
   Search,
   BookOpen,
+  Droplet,
   LifeBuoy,
   FileText,
   User,
   ExternalLink,
   DollarSign,
   TrendingUp,
-  Columns
+  Columns,
+  PiggyBank,
+  BarChart3,
+  LineChart as LineChartIcon,
+  ScatterChart,
 } from 'lucide-react';
 import { ActiveTab } from '../types';
 
@@ -69,6 +74,70 @@ export default function Navbar({ activeTab, setActiveTab, prevTab }: NavbarProps
       category: 'finance',
       icon: TrendingUp,
       color: 'from-blue-600 to-indigo-700',
+    },
+    {
+      id: 'calc_percentage',
+      title: 'Percentage Calculator',
+      desc: 'X% of Y, percentage change & ratios',
+      category: 'finance',
+      icon: Percent,
+      color: 'from-orange-400 to-red-600',
+    },
+    {
+      id: 'calc_compound',
+      title: 'Compound Interest',
+      desc: 'Future value & earned interest calculator',
+      category: 'finance',
+      icon: TrendingUp,
+      color: 'from-cyan-500 to-blue-600',
+    },
+    {
+      id: 'calc_investment',
+      title: 'Investment Calculator',
+      desc: 'Monthly contributions & total returns',
+      category: 'finance',
+      icon: PiggyBank,
+      color: 'from-pink-500 to-rose-600',
+    },
+    {
+      id: 'calc_sip',
+      title: 'SIP Calculator',
+      desc: 'Systematic investment plan analyzer',
+      category: 'finance',
+      icon: BarChart3,
+      color: 'from-green-500 to-emerald-600',
+    },
+    {
+      id: 'calc_graph',
+      title: 'Graph Plotter',
+      desc: 'Visualize mathematical functions',
+      category: 'units',
+      icon: LineChartIcon,
+      color: 'from-indigo-500 to-purple-600',
+    },
+    {
+      id: 'calc_scientific_graph',
+      title: 'Scientific Graph',
+      desc: 'Plot scientific functions & CSV data',
+      category: 'units',
+      icon: ScatterChart,
+      color: 'from-purple-500 to-pink-600',
+    },
+    {
+      id: 'calc_academic',
+      title: 'Academic Calculator',
+      desc: 'CGPA, SGPA, SGPI and Percentage Conversion with Semester Performance Analysis',
+      category: 'finance',
+      icon: BookOpen,
+      color: 'from-sky-500 to-indigo-600',
+    },
+    {
+      id: 'calc_water_intake',
+      title: 'Water Intake Calculator',
+      desc: 'Daily hydration calculator based on weight, activity level and climate conditions',
+      category: 'health',
+      icon: Droplet,
+      color: 'from-cyan-500 to-blue-600',
     },
     {
       id: 'conv_discount',
@@ -212,7 +281,7 @@ export default function Navbar({ activeTab, setActiveTab, prevTab }: NavbarProps
                 <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
                 <input
                   type="text"
-                  placeholder="Search 16 converters or calculators..."
+                  placeholder="Search 22 converters or calculators..."
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
                   className="w-full pl-12 pr-4 py-3.5 rounded-2xl bg-white/10 dark:bg-black/20 text-white placeholder-slate-400 font-medium border border-white/10 focus:bg-white focus:text-slate-900 focus:placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all text-sm outline-none"
