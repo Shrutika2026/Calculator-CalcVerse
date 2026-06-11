@@ -88,14 +88,14 @@ Features:
 
 ## Scientific Calculator
 
-Advanced Functions:
+Advanced Mathematical Operations:
 
-* Trigonometric Functions
-* Logarithmic Functions
-* Powers and Roots
-* Exponential Operations
-* Scientific Expressions
-
+* Trigonometric Functions (trig)
+* Logarithmic Functions (log)
+* Powers and Roots (pow-rt)
+* Exponential Operations (exp)
+* Scientific Expressions (sci-expr)
+  
 Additional Features:
 
 * Degree Mode (DEG)
@@ -111,42 +111,53 @@ Additional Features:
 
 ### 💱 Currency Converter
 
+Features:
+
 * Live Exchange Rates
 * Multi-Currency Support
 * Real-Time Conversion
 * Global Currency Comparison
 * Accurate Financial Calculations
 
+Supported examples:
+
+* INR (₹)
+* USD ($)
+* EUR (€)
+* GBP (£)
+* JPY (¥)
+* And many more
+
 ### 🧾 GST Calculator
 
 Supported GST Rates:
 
-* 3%
-* 5%
-* 12%
-* 18%
-* 28%
+* 3% (gst-3)
+* 5% (gst-5)
+* 12% (gst-12)
+* 18% (gst-18)
+* 28% (gst-28)
 
 Calculates:
 
-* GST Amount
-* Tax Breakdown
-* Final Price
+* GST Amount (gst-amt)
+* Tax Breakdown (tax-brk)
+* Final Price (net-price)
 
 ### 💳 Loan EMI Calculator
 
 Calculate:
 
-* Monthly EMI
-* Total Interest
-* Total Payment
-* Loan Schedule
+* Monthly EMI (emi)
+* Total Interest (tot-int)
+* Total Payment (tot-pay)
+* Loan Schedule (sched)
 
 Inputs:
 
-* Principal Amount
-* Interest Rate
-* Loan Tenure
+* Principal Amount (prncp)
+* Interest Rate (rate)
+* Loan Tenure (tenure)
 
 ### 📈 Percentage Calculator
 
@@ -161,33 +172,34 @@ Features:
 
 Calculate:
 
-* Future Value
-* Interest Earned
-* Total Growth
+* Future Value (fv)
+* Interest Earned (int-ern)
+* Total Growth (growth)
 
-### 📊 Investment Calculator
-
-Calculate:
-
-* Future Investment Value
-* Total Profit
-* Growth Percentage
-
-### 📅 SIP Calculator
+### 📊 Investment Calculator (Returns and Growth Tracking)
 
 Calculate:
 
-* Monthly Investment Growth
-* Wealth Gained
-* Maturity Value
+* Future Investment Value (fiv)
+* Total Profit (profit)
+* Growth Percentage (growth-pct)
 
-### 🏷️ Discount & Savings Calculator
+### 📅 SIP Calculator (Investment and Wealth Calculations)
 
 Calculate:
 
-* Discount Percentage
-* Savings Amount
-* Final Price
+* Monthly Investment Growth (growth)
+* Wealth Gained (gain)
+* Maturity Value (mat-val)
+
+### 🏷️ Discount & Savings Calculator (Discount and Pricing Calculations)
+
+Calculate:
+
+* Discount Percentage (disc-pct)
+* Savings Amount (save-amt)
+* Final Price (price)
+* Retail Pricing Breakdown (breakdown)
 
 ---
 
@@ -197,14 +209,15 @@ Calculate:
 
 Features:
 
-* CGPA to Percentage Converter
-* Percentage to CGPA Converter
-* SGPA Calculator
-* SGPI Calculator
-* Grade Point Calculator
-* CGPA from Semester SGPAs
-* Academic Performance Summary
-* Grade Classification
+## Grade and GPA Tools
+* CGPA to Percentage Converter (cgpa-pct)
+* Percentage to CGPA Converter (pct-cgpa)
+* SGPA Calculator (sgpa)
+* SGPI Calculator (sgpi)
+* Grade Point Calculator (gpa)
+* CGPA from Semester SGPAs (sem-cgpa)
+* Academic Performance Summary (summary)
+* Grade Classification (class)
 
 Formulas:
 
@@ -268,39 +281,40 @@ Features:
 
 Height:
 
-* Centimeter
-* Meter
-* Feet
-* Inches
+* Centimeter (cm)
+* Meter (m)
+* Feet (ft)
+* Inches (in)
 
 Weight:
 
-* Kilogram
-* Pounds
+* Kilogram (kg)
+* Pounds (lb)
 
 Provides:
 
 * BMI Score
-* Health Category
+* Health Category/Classification
+* Instant Results
 * Tips to improve BMI Score
 
 ### Water Intake Calculator
 
 Inputs:
 
-* Gender
-* Age
-* Weight
-* Height
-* Activity Level
-* Climate
+* Gender (gen)
+* Age (age)
+* Weight (wt)
+* Height (ht)
+* Activity Level (act)
+* Climate (cli)
 
 Outputs:
 
-* Daily Water Intake (Liters)
-* Daily Water Intake (Glasses)
-* Hydration Score
-* Personalized Recommendations
+* Daily Water Intake (Liters) (L)
+* Daily Water Intake (Glasses) (gl)
+* Hydration Score (score)
+* Personalized Recommendations (rec)
 
 Features:
 
@@ -325,38 +339,47 @@ Adjusted based on:
 
 # 📅 Date & Time Tools
 
-### Smart Age Metric
+### Smart Age Metric (Age Tracking)
 
 Calculate:
 
-* Exact Age
-* Years
-* Months
-* Days
-* Birthday Countdown (Upcoming Birthday Information)
+* Exact Age (age)
+* Years (yr)
+* Months (mo)
+* Days (days)
+* Birthday Countdown (Upcoming Birthday Information) (bd-cd)
 
-### Date Duration Calculator
+### Date Duration (Difference) Calculator (Date Calculations)
 
 Calculate:
 
-* Days Between Dates
-* Weeks Between Dates
-* Months Between Dates
-* Years Between Dates
+* Days Between Dates (days)
+* Weeks Between Dates (wk)
+* Months Between Dates (mo)
+* Years Between Dates (yr)
+* Total Duration (dur)
+
+Useful for:
+
+* Project Planning
+* Event Tracking
+* Milestone Management
 
 ### Time Interval Converter
 
 Supports:
 
-* Picoseconds
-* Microseconds
-* Milliseconds
-* Seconds
-* Minutes
-* Hours
-* Weeks
-* Months
-* Years
+## Time Units
+
+* Picoseconds (ps)
+* Microseconds (µs)
+* Milliseconds (ms)
+* Seconds (s)
+* Minutes (min)
+* Hours (h)
+* Weeks (wk)
+* Months (mo)
+* Years (yr)
 
 ---
 
@@ -364,67 +387,77 @@ Supports:
 
 ### Numerical Bases Converter
 
-* Decimal
-* Binary
-* Octal
-* Hexadecimal
+* Decimal (dec)
+* Binary (bin)
+* Octal (oct)
+* Hexadecimal (hex)
+
+Useful for:
+
+* Computer Science
+* Programming
+* Digital Electronics
 
 ### Land Area Converter
 
-* Square Kilometer
-* Hectare
-* Square Meter
-* Square Decimeter
-* Square Centimeter
-* Square Millimeter
-* Square Micron
-* Acre
-* A-Square
-* Square Yard
-* Square Foot
-* Square Inch
-* Square Rod
+* Square Kilometer (km² or sq km)
+* Hectare (ha)
+* Square Meter (m² or sq m)
+* Square Decimeter (dm²)
+* Square Centimeter (cm² or sq cm)
+* Square Millimeter (mm² or sq mm)
+* Square Micron (µm²)
+* Acre (ac)
+* A-Square (Are) (a)
+* Square Yard (yd² or sq yd)
+* Square Foot (ft² or sq ft)
+* Square Inch (in² or sq in)
+* Square Rod (rd² or sq rd)
 
 
 ### Length & Distance Converter
 
-* Millimeter
-* Centimeter
-* Meter
-* Kilometer
-* Inch
-* Foot
-* Yard
-* Mile
+* Millimeter (mm)
+* Centimeter (cm)
+* Meter (m)
+* Kilometer (km)
+* Inch (in)
+* Foot (ft)
+* Yard (yd)
+* Mile (mi)
 
 ### Mass & Weight Converter
 
-* Kilogram
-* Ton
-* Milligram
-* Microgram
-* Quintal
-* Pound
-* Carat
-* Grain
-* UK Hundredweight
-* US Hundredweight
-* Stone
-* Dram
+* Kilogram (kg)
+* Ton (t)
+* Gram (gm)
+* Milligram (mg)
+* Microgram (mcg)
+* Quintal (Q)
+* Pound (lb)
+* Carat (ct)
+* Grain (G)
+* UK Hundredweight (cwt)
+* US Hundredweight (cwt-us)
+* Stone (st)
+* Dram (dr)
 
 ### Data Storage Converter
 
-* Byte
+* Byte (B)
 * Kilobyte (KB)
 * Megabyte (MB)
 * Gigabyte (GB)
 * Terabyte (TB)
 * Petabyte (PB)
+* Exabyte (EB)
+* Zettabyte (ZB)
+* Yottabyte (YB)
 * Binary Units
 
 ### Velocity Speed Converter
 
-* Speed of Light
+* Speed of Light (c)
 * Kilometer per Hour (km/h)
 * Meter per Second (m/s)
 * Kilometer per Second (km/s)
@@ -434,27 +467,32 @@ Supports:
 
 ### Temperature Formula Converter
 
-* Celsius
-* Fahrenheit
-* Kelvin
-* Rankine
-* Réaumur
+* Celsius (°C)
+* Fahrenheit (°F)
+* Kelvin (K)
+* Rankine (°R or °Ra)
+* Réaumur (°Re)
 
 ### Volume Capacity Converter
 
-* Cubic Meter
-* Cubic Decimeter
-* Cubic Centimeter
-* Cubic Millimeter
-* Hectoliter
-* Liter
-* Deciliter
-* Centiliter
-* Milliliter
-* Cubic Foot
-* Cubic Inch
-* Cubic Yard
-* Acre-foot
+## Metric Volumetric Units
+* Cubic Meter (m³ or cu m)
+* Cubic Decimeter (dm³)
+* Cubic Centimeter (cm³ or cc)
+* Cubic Millimeter (mm³)
+
+## Metric Liquid Capacity Units
+* Hectoliter (hL)
+* Liter (L)
+* Deciliter (dL)
+* Centiliter (cL)
+* Milliliter (mL)
+
+## Imperial / US Customary Units
+* Cubic Foot (ft³ or cu ft)
+* Cubic Inch (in³ or cu in)
+* Cubic Yard (yd³ or cu yd)
+* Acre-foot (ac-ft)
   
 ---
 
