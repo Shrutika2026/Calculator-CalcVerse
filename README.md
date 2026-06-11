@@ -512,51 +512,46 @@ Useful for:
   
 ---
 
-
-
----
-
 # 🚀 Project Highlights
 
-✅ React + TypeScript Architecture
+CalcVerse is a modern, AI-powered utility platform built with React, TypeScript, Vite, and Tailwind CSS, combining powerful calculators, converters, graphing tools, academic analytics, financial utilities, and health-focused features into a single responsive application.
 
-✅ Vite Powered Performance
+### ✨ Key Features
 
-✅ Tailwind CSS Styling
+* ⚡ Lightning-fast performance powered by Vite
+* 🎨 Modern and responsive UI built with Tailwind CSS
+* 🤖 Google Gemini AI integration for intelligent assistance
+* 🎙️ Voice Input Calculator for hands-free calculations
+* 📋 Copy Calculation feature for quick sharing
+* 📝 Calculation History Dashboard with Local Storage persistence
+* 🗑️ Delete History functionality for better management
+* 📐 Degree & Radian modes for scientific calculations
+* 💱 Real-Time Currency Conversion
+* 📈 Interactive Graph Plotting Tools
+* 🎓 Academic Calculators (Percentage, CGPA, SGPA, GPA, SGPI)
+* 📊 Academic Performance Analytics
+* ❤️ BMI Calculator with personalized recommendations
+* 💧 Water Intake Calculator with health tips
+* 🔄 Fast and accurate unit and value conversions
+* 🌙 Dark Mode & Light Mode support
+* ⌨️ Keyboard shortcut support for power users
+* 🛡️ Type-safe architecture using TypeScript
+* 📦 Clean, modular, and scalable codebase
+* 📱 Fully responsive across Desktop, Tablet, and Mobile devices
 
-✅ Google Gemini AI Integration Numerical Bases Converte
+### 🎯 Why CalcVerse?
 
-✅ Voice Input Calculator
+CalcVerse serves as an all-in-one utility platform that combines:
 
-✅ Copy Calculation Feature
+* Mathematics
+* Finance
+* Education
+* Health
+* Engineering
+* Daily Productivity
 
-✅ Calculation History Dashboard
+into a single seamless experience with real-time calculations, intuitive design, and production-ready architecture.
 
-✅ Delete History Functionality
-
-✅ Degree & Radian Modes
-
-✅ Real-Time Currency Conversion
-
-✅ Graph Plotting Tools
-
-✅ Academic Performance Analytics
-
-✅ BMI Health Recommendations
-
-✅ Water Intake Health Tips
-
-✅ Mobile Responsive Design
-
-✅ Dark Mode & Light Mode
-
-✅ Fast and Accurate Conversions
-
-✅ Clean Modular Architecture
-
-✅ Persistent Local Storage Support
-
-✅ Production Ready Architecture
 
 ---
 
@@ -733,6 +728,7 @@ Deploy easily using:
 * Netlify
 * GitHub Pages
 * Firebase Hosting
+* Custom Hosting Platforms
 
 ---
 
@@ -744,7 +740,7 @@ B.Sc. Information Technology Student
 
 ---
 
-# ⭐ Support
+# 🤝 Support
 
 If you found this project useful:
 
